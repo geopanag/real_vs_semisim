@@ -1,0 +1,10 @@
+{
+  "datasets": ["retail","nhefs","ihdp","acic2016","twins","hillstrom_men","hillstrom_women"],
+  "model_name": ["XGB","NN","LR"],
+  "training_split": [5],
+  "metalearn": ["CFR","TARnet","Dragon","CausalForest"],
+  "seeds": [0,1,2,3,4],
+  "validation_fraction_percent": 0.2,
+  "path_to_results": "./results",
+  "path_to_predictions": "./predictions"
+}

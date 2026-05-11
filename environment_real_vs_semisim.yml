@@ -1,0 +1,25 @@
+name: real_vs_semisim
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9.18
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - xgboost
+  - pytorch
+  - pip:
+      # Core causal / dataset libraries used in utils.py and causal_benchmarks.py
+      - causalml
+      - catenets
+      - causallib
+      - sklift
+      # Optional: only needed if you run the CFR Hydra/MLflow scripts in cfr/
+      - hydra-core
+      - omegaconf
+      - mlflow
