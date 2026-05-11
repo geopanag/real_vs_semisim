@@ -1,5 +1,4 @@
-# Real vs. Semi-Simulated: Rethinking Evaluation for
-Treatment Effect Estimation
+# Real vs. Semi-Simulated: Rethinking Evaluation for Treatment Effect Estimation
 
 Conda environment:
 
